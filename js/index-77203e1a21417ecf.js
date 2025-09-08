@@ -276,7 +276,7 @@
                 let {
                     title: t,
                     pathname: a
-                } = e, n = "Muhammad Hamza", l = "Muhammad Hamza is a software engineer who builds accessible, inclusive products and digital experiences for the web.", o = "https://brittanychiang.com", c = "".concat(o, "/og.png"), d = "@bchiang7", m = n;
+                } = e, n = "Muhammad Hamza", l = "Muhammad Hamza is a software engineer who builds accessible, inclusive products and digital experiences for the web.", o = "https://hamzaka.com", c = "".concat(o, "/og.png"), d = "@bchiang7", m = n;
                 return t !== n && (m = "".concat(t, " | ").concat(n)), (0, s.jsxs)(i(), {
                     children: [(0, s.jsx)("title", {
                         children: m
