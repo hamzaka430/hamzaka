@@ -116,7 +116,6 @@
                                 d: "M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"
                             })
                         });
-                    case "goodreads":
                         return (0, s.jsx)("svg", {
                             xmlns: "http://www.w3.org/2000/svg",
                             viewBox: "0 0 1024 1024",
@@ -276,7 +275,7 @@
                 let {
                     title: t,
                     pathname: a
-                } = e, n = "Muhammad Hamza", l = "Muhammad Hamza is a software engineer who builds accessible, inclusive products and digital experiences for the web.", o = "https://hamzaka.com", c = "".concat(o, "/og.png"), d = "@bchiang7", m = n;
+                } = e, n = "Muhammad Hamza", l = "Muhammad Hamza is a software engineer who builds accessible, inclusive products and digital experiences for the web.", o = "https://hamzaka.me", c = "".concat(o, "/og.png"), d = "@bchiang7", m = n;
                 return t !== n && (m = "".concat(t, " | ").concat(n)), (0, s.jsxs)(i(), {
                     children: [(0, s.jsx)("title", {
                         children: m
@@ -615,24 +614,20 @@
                         "aria-label": "Social media",
                         children: [{
                             title: "GitHub",
-                            url: "https://github.com/bchiang7",
+                            url: "https://github.com/hamzaka430",
                             icon: "github"
                         }, {
                             title: "LinkedIn",
-                            url: "https://www.linkedin.com/in/bchiang7/",
+                            url: "https://www.linkedin.com/in/hamzaka549/",
                             icon: "linkedin"
                         }, {
                             title: "CodePen",
-                            url: "https://codepen.io/bchiang7",
+                            url: "https://codepen.io/HAMZA-ZAKA",
                             icon: "codepen"
                         }, {
                             title: "Instagram",
-                            url: "https://instagram.com/bchiang7",
+                            url: "https://instagram.com/hamzaka549",
                             icon: "instagram"
-                        }, {
-                            title: "Goodreads",
-                            url: "https://www.goodreads.com/user/show/143480747-brittany-chiang",
-                            icon: "goodreads"
                         }].map((e, t) => (0, s.jsx)("li", {
                             className: "mr-5 shrink-0 text-xs",
                             children: (0, s.jsxs)("a", {
@@ -686,171 +681,169 @@
                 })
             }
 
-           function b() {
-            let e = (e) => {
-                let { repoUrl: t } = e,
-                [a, n] = (0, r.useState)(null);
-                return (
-                (0, r.useEffect)(() => {
-                    let e = t.split("/")[4];
-                    fetch("https://api.github.com/repos/cyber-hamza49/".concat(e))
-                    .then((e) => e.json())
-                    .then((e) => {
-                        let { stargazers_count: t } = e;
-                        n(t);
-                    })
-                    .catch((e) => console.error(e));
-                }, [t]),
-                a
-                )
-                ? (0, s.jsxs)("a", {
-                    className:
-                        "relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300",
-                    href: t,
-                    target: "_blank",
-                    rel: "noreferrer noopener",
-                    "aria-label": "".concat(
-                        a,
-                        " stars on GitHub (opens in a new tab)"
-                    ),
-                    children: [
-                        (0, s.jsx)(o.Z, {
-                        use: "star",
-                        className: "mr-1 h-3 w-3",
-                        }),
-                        (0, s.jsx)("span", {
-                        children: Number(a).toLocaleString("en", {
-                            useGrouping: !0,
-                        }),
-                        }),
-                    ],
-                    })
-                : null
-            };
-
-            return (0, s.jsxs)("div", {
-                children: [
-                (0, s.jsx)("ul", {
-                    className: "group/list",
-                    children: [
-                    {
-                        title: "Invoizo",
-                        link: "#",
-                        image: "/images/projects/invoizo.png",
-                        alt: "Invoizo invoice generator interface",
-                        desc: "A comprehensive web application designed for freelancers and businesses to generate professional invoices instantly. Features automated PDF export functionality, organized invoice records management, and unique invoice ID generation.",
-                        tech: ["Html", "CSS", "Bootstrap", "JavaScript"],
-                        github: "https://github.com/cyber-hamza49/Invoizo",
-                    },
-                    {
-                        title: "DezignWise",
-                        link: "https://dezignwise.online",
-                        image: "/images/projects/dezignwise.png",
-                        alt: "DezignWise agency website homepage",
-                        desc: "A digital agency web application showcasing services including Web Design, App Design, UI/UX, Web Development, and Graphic Design. Effectively presents portfolio and client work, driving business growth and client engagement.",
-                        tech: ["Html", "CSS", "Bootstrap", "JavaScript"],
-                        github: "https://github.com/cyber-hamza49/DezignWise",
-                    },
-                    {
-                        title: "Salon Management System",
-                        link: "#",
-                        image: "/images/projects/salon-management.png",
-                        alt: "Salon management system dashboard",
-                        desc: "A complete management system for salons to efficiently handle client appointments, staff scheduling, and billing operations. Built with Laravel ensuring optimal performance and role-based access.",
-                        tech: ["Laravel", "PHP", "MySQL", "Blade Templating", "Bootstrap"],
-                        github: "https://github.com/cyber-hamza49/Salon-Management-System",
-                    },
-                    {
-                        title: "Mosque Connector",
-                        link: "#",
-                        image: "/images/projects/mosque-connector.png",
-                        alt: "Mosque connector community app interface",
-                        desc: "A community-focused app that enables mosques to connect with their communities by sharing prayer timings, events, and announcements in real-time.",
-                        tech: ["Laravel", "PHP", "MySQL", "Bootstrap", "JavaScript"],
-                        github: "https://github.com/cyber-hamza49/Mosque-Connector",
-                    },
-                    {
-                        title: "Harvel Store",
-                        link: "harvelstore.netlify.app",
-                        image: "/images/projects/harvel-store.png",
-                        alt: "Harvel Store e-commerce app interface",
-                        desc: "A responsive e-commerce web application that displays product categories, descriptions, and a user-friendly shopping interface. Features fully responsive UI with product showcase and smooth navigation for an optimal shopping experience.",
-                        tech: ["Html", "CSS", "Bootstrap", "JavaScript"],
-                        github: "https://github.com/cyber-hamza49/Harvel-Store",
-                    },
-                    ].map((t, a) =>
-                    (0, s.jsx)(
-                        "li",
-                        {
-                        className: "mb-12",
-                        children: (0, s.jsxs)("div", {
-                            className:
-                            "group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50",
-                            children: [
-                            (0, s.jsx)(l, {}),
-                            (0, s.jsxs)("div", {
-                                className: "z-10 sm:order-2 sm:col-span-6",
-                                children: [
-                                (0, s.jsx)("h3", {
-                                    children: (0, s.jsx)(i.Z, {
-                                    title: t.title,
-                                    url: t.link,
-                                    fill: !0,
-                                    }),
-                                }),
-                                (0, s.jsx)("p", {
-                                    className: "mt-2 text-sm leading-normal",
-                                    children: t.desc,
-                                }),
-                                t.github &&
-                                    (0, s.jsx)(e, {
-                                    repoUrl: t.github,
-                                    }),
-                                t.tech &&
-                                    (0, s.jsx)("ul", {
-                                    className: "mt-2 flex flex-wrap",
-                                    "aria-label": "Technologies used:",
-                                    children: t.tech.map((e, t) =>
-                                        (0, s.jsx)(
-                                        "li",
-                                        {
-                                            className: "mr-1.5 mt-2",
-                                            children: (0, s.jsx)(c.Z, {
-                                            text: e,
-                                            }),
-                                        },
-                                        t
-                                        )
-                                    ),
-                                    }),
-                                ],
-                            }),
-                            (0, s.jsx)(x(), {
-                                className:
-                                "aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1",
-                                src: t.image,
-                                alt: t.alt,
-                                width: 200,
-                                height: 48,
-                            }),
-                            ],
-                        }),
-                        },
-                        a
-                    )
-                    ),
+         function b() {
+    let e = (e) => {
+        let { repoUrl: t } = e,
+        [a, n] = (0, r.useState)(null);
+        return (
+        (0, r.useEffect)(() => {
+            let e = t.split("/")[4];
+            fetch("https://api.github.com/repos/hamzaka430/".concat(e))
+            .then((e) => e.json())
+            .then((e) => {
+                let { stargazers_count: t } = e;
+                n(t);
+            })
+            .catch((e) => console.error(e));
+        }, [t]),
+        a
+        )
+        ? (0, s.jsxs)("a", {
+            className:
+                "relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300",
+            href: t,
+            target: "_blank",
+            rel: "noreferrer noopener",
+            "aria-label": "".concat(
+                a,
+                " stars on GitHub (opens in a new tab)"
+            ),
+            children: [
+                (0, s.jsx)(o.Z, {
+                use: "star",
+                className: "mr-1 h-3 w-3",
                 }),
-                // (0, s.jsx)("div", {
-                //     className: "mt-12",
-                //     children: (0, s.jsx)(f, {
-                //     title: "View Full Project Archive",
-                //     url: "/archive",
-                //     className: "font-semibold text-slate-200",
-                //     }),
-                // }),
-                ],
-            });
-            }
+                (0, s.jsx)("span", {
+                children: Number(a).toLocaleString("en", {
+                    useGrouping: !0,
+                }),
+                }),
+            ],
+            })
+        : null
+    };
+
+    return (0, s.jsxs)("div", {
+        children: [
+        (0, s.jsx)("ul", {
+            className: "group/list",
+            children: [
+            {
+                title: "Invoizo",
+                link: "https://invoizo.app",
+                image: "https://i.postimg.cc/2jHR8LTg/invoizo.png",
+                alt: "Invoizo invoice generator interface",
+                desc: "A comprehensive web application designed for freelancers and businesses to generate professional invoices instantly. Features automated PDF export functionality, organized invoice records management, and unique invoice ID generation.",
+                tech: ["Laravel", "PHP", "MySQL", "Bootstrap", "JavaScript"], // Fixed tech stack
+                github: "https://github.com/hamzaka430/Invoizo_Invoice_Generator",
+            },
+            {
+                title: "DezignWise",
+                link: "https://dezignwise.online",
+                image: "https://i.postimg.cc/qqvPxpBm/dezignwise.png",
+                alt: "DezignWise agency website homepage",
+                desc: "A digital agency web application showcasing services including Web Design, App Design, UI/UX, Web Development, and Graphic Design. Effectively presents portfolio and client work, driving business growth and client engagement.",
+                tech: ["Laravel", "PHP", "MySQL", "Bootstrap", "JavaScript"], // Fixed tech stack
+                github: "https://github.com/hamzaka430/DezignWise",
+            },
+            {
+                title: "Salon Management System",
+                link: "#",
+                image: "https://i.postimg.cc/ZRHkNWmB/barber.png",
+                alt: "Salon management system dashboard",
+                desc: "A complete management system for salons to efficiently handle client appointments, staff scheduling, and billing operations. Built with Laravel ensuring optimal performance and role-based access.",
+                tech: ["Laravel", "PHP", "MySQL", "Blade Templating", "Bootstrap"],
+                github: "https://github.com/hamzaka430/BarberX",
+            },
+            {
+                title: "Mosque Connector",
+                link: "#",
+                image: "https://i.postimg.cc/yYkqJ6bx/mosque.png",
+                alt: "Mosque connector community app interface",
+                desc: "A community-focused app that enables mosques to connect with their communities by sharing prayer timings, events, and announcements in real-time.",
+                tech: ["Laravel", "PHP", "MySQL", "Bootstrap", "JavaScript"],
+                github: "https://github.com/hamzaka430/Mosque",
+            },
+            {
+                title: "Harvel Store",
+                link: "https://harvelstore.netlify.app",
+                image: "https://i.postimg.cc/gjtfM1nG/harvel.png",
+                alt: "Harvel Store e-commerce app interface",
+                desc: "A responsive e-commerce web application that displays product categories, descriptions, and a user-friendly shopping interface. Features fully responsive UI with product showcase and smooth navigation for an optimal shopping experience.",
+                tech: ["HTML", "CSS", "Bootstrap", "JavaScript"], // Fixed tech stack
+                github: "https://github.com/hamzaka430/harvel_store",
+            },
+            ].map((t, a) =>
+            (0, s.jsx)(
+                "li",
+                {
+                className: "mb-12",
+                children: (0, s.jsxs)("div", {
+                    className:
+                    "group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50",
+                    children: [
+                    (0, s.jsx)(l, {}),
+                    (0, s.jsxs)("div", {
+                        className: "z-10 sm:order-2 sm:col-span-6",
+                        children: [
+                        (0, s.jsx)("h3", {
+                            children: (0, s.jsx)(i.Z, {
+                            title: t.title,
+                            url: t.link,
+                            fill: !0,
+                            }),
+                        }),
+                        (0, s.jsx)("p", {
+                            className: "mt-2 text-sm leading-normal",
+                            children: t.desc,
+                        }),
+                        t.github &&
+                            (0, s.jsx)(e, {
+                            repoUrl: t.github,
+                            }),
+                        t.tech &&
+                            (0, s.jsx)("ul", {
+                            className: "mt-2 flex flex-wrap",
+                            "aria-label": "Technologies used:",
+                            children: t.tech.map((e, t) =>
+                                (0, s.jsx)(
+                                "li",
+                                {
+                                    className: "mr-1.5 mt-2",
+                                    children: (0, s.jsx)(c.Z, {
+                                    text: e,
+                                    }),
+                                },
+                                t
+                                )
+                            ),
+                            }),
+                        ],
+                    }),
+                    // Replace Next.js Image with regular img tag
+                    (0, s.jsx)("img", {
+                        className:
+                        "aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1",
+                        src: t.image,
+                        alt: t.alt,
+                        width: 200,
+                        height: 48,
+                        loading: "lazy", // Add lazy loading
+                        onError: (e) => {
+                            console.error("Image failed to load:", t.image);
+                            e.target.style.display = 'none'; // Hide broken images
+                        }
+                    }),
+                    ],
+                }),
+                },
+                a
+            )
+            ),
+        }),
+        ],
+    });
+}
 
             var v = a(8425),
                 w = a(4910);
