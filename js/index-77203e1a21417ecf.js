@@ -976,7 +976,7 @@
                     {
                         short: "Backend",
                         title: "Backend Development",
-                        desc: "PHP, Node.js — API integration, authentication, RESTful services, server-side logic, performance optimization."
+                        desc: "PHP, Laravel — API integration, authentication, RESTful services, server-side logic, performance optimization."
                     },
                     {
                         short: "Database",
