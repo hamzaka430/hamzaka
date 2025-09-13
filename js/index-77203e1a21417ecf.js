@@ -143,6 +143,28 @@
                                 strokeWidth: "5"
                             })
                         });
+                    case "whatsapp":
+                        return (0, s.jsx)("svg", {
+                            xmlns: "http://www.w3.org/2000/svg",
+                            viewBox: "0 0 24 24",
+                            fill: "currentColor",
+                            className: a,
+                            "aria-hidden": "true",
+                            children: (0, s.jsx)("path", {
+                                d: "M12.04 2a9.94 9.94 0 00-8.9 14.53L2 22l5.65-1.47A9.94 9.94 0 1012.04 2zm5.82 14.26c-.24.68-1.38 1.26-1.9 1.3-.49.04-1.11.06-1.79-.11-.41-.1-.94-.3-1.63-.59-2.87-1.24-4.74-4.14-4.89-4.33-.14-.19-1.17-1.55-1.17-2.96 0-1.4.74-2.08 1-2.36.24-.27.53-.34.71-.34.17 0 .35 0 .5.01.16.01.38-.06.6.46.24.59.82 2.05.89 2.2.07.15.12.32.02.51-.09.19-.14.31-.27.47-.14.16-.29.36-.41.49-.14.14-.29.29-.13.57.15.27.66 1.09 1.42 1.77.97.87 1.79 1.14 2.07 1.27.27.14.43.12.59-.07.16-.19.68-.79.86-1.06.18-.27.36-.23.6-.14.24.09 1.53.72 1.8.85.27.14.45.2.52.31.07.12.07.7-.17 1.38z"
+                            })
+                        });
+                    case "email":
+                        return (0, s.jsx)("svg", {
+                            xmlns: "http://www.w3.org/2000/svg",
+                            viewBox: "0 0 24 24",
+                            fill: "currentColor",
+                            className: a,
+                            "aria-hidden": "true",
+                            children: (0, s.jsx)("path", {
+                                d: "M2 6.75A2.75 2.75 0 014.75 4h14.5A2.75 2.75 0 0122 6.75v10.5A2.75 2.75 0 0119.25 20H4.75A2.75 2.75 0 012 17.25V6.75zm2.18-.53a.75.75 0 00-.93 1.16l7.84 6.26a1.25 1.25 0 001.56 0l7.84-6.26a.75.75 0 10-.93-1.16L12 13.15 4.18 6.22z"
+                            })
+                        });
                     case "arrow-external":
                         return (0, s.jsx)("svg", {
                             xmlns: "http://www.w3.org/2000/svg",
@@ -489,6 +511,106 @@
             })
             }
 
+            // Education section - mirrors the Experience component's structure for consistent styling
+            function y() {
+                return (0, s.jsx)("div", {
+                    children: (0, s.jsx)("ol", {
+                        className: "group/list",
+                        children: [{
+                            date: "Jun 2015 — Mar 2018",
+                            company: {
+                                name: "Jamia Hammadia",
+                                link: null
+                            },
+                            positions: ["Hifz e Quran"],
+                            desc: "Completed Hifz-e-Quran at Jamia Hammadia."
+                        }, {
+                            date: "Oct 2025 — Aug 2029 (ongoing)",
+                            company: {
+                                name: "",
+                                link: null
+                            },
+                            positions: ["BSIT (Bachelor of Science in Information Technology) · Undergraduate"],
+                            desc: "Virtual University of Pakistan."
+                        }, {
+                            date: "Jul 2021 — Aug 2023",
+                            company: {
+                                name: "Bahria College Karsaz",
+                                link: null
+                            },
+                            positions: ["Intermediate in Computer Science"],
+                            desc: "Grade: B (68%)."
+                        }, {
+                            date: "Aug 2019 — Jun 2021",
+                            company: {
+                                name: "Green Public High School",
+                                link: null
+                            },
+                            positions: ["Matriculation in Computer Science"],
+                            desc: "Grade: A+ (88%)."
+                        }].map((e, t) => (0, s.jsx)("li", {
+                            className: "mb-12",
+                            children: (0, s.jsxs)("div", {
+                                className: "group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50",
+                                children: [(0, s.jsx)(l, {}), (0, s.jsx)("header", {
+                                    className: "z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2",
+                                    "aria-label": e.date.replace("—", "to"),
+                                    children: e.date || ""
+                                }), (0, s.jsxs)("div", {
+                                    className: "z-10 sm:col-span-6",
+                                    children: [(0, s.jsx)("h3", {
+                                        className: "font-medium leading-snug text-slate-200",
+                                        children: e.positions.map((t, a) => (0, s.jsx)("div", {
+                                            children: 0 === a ? (0, s.jsx)(i.Z, {
+                                                title: e.company.name ? "".concat(t, " · ").concat(e.company.name) : t,
+                                                label: e.company.name ? "".concat(t, " at ").concat(e.company.name) : t,
+                                                url: e.company.link,
+                                                fill: !0
+                                            }) : (0, s.jsx)("div", {
+                                                className: "text-slate-500",
+                                                "aria-hidden": "true",
+                                                children: t
+                                            })
+                                        }, a))
+                                    }), (0, s.jsx)("p", {
+                                        className: "mt-2 text-sm leading-normal",
+                                        children: e.desc
+                                    }), e.links && (0, s.jsx)("ul", {
+                                        className: "mt-2 flex flex-wrap",
+                                        "aria-label": "Related links",
+                                        children: e.links.map((e, t) => (0, s.jsx)("li", {
+                                            className: "mr-4",
+                                            children: (0, s.jsxs)("a", {
+                                                className: "relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300",
+                                                href: e.url,
+                                                target: "_blank",
+                                                rel: "noreferrer noopener",
+                                                "aria-label": "".concat(e.title, " (opens in a new tab)"),
+                                                children: [(0, s.jsx)(o.Z, {
+                                                    use: "link",
+                                                    className: "mr-1 h-3 w-3"
+                                                }), (0, s.jsx)("span", {
+                                                    children: e.title
+                                                })]
+                                            })
+                                        }, t))
+                                    }), e.tech && (0, s.jsx)("ul", {
+                                        className: "mt-2 flex flex-wrap",
+                                        "aria-label": "Technologies used",
+                                        children: e.tech.map((e, t) => (0, s.jsx)("li", {
+                                            className: "mr-1.5 mt-2",
+                                            children: (0, s.jsx)(c.Z, {
+                                                text: e
+                                            })
+                                        }, t))
+                                    })]
+                                })]
+                            })
+                        }, t))
+                    })
+                })
+            }
+
            function m() {
     let e = "font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300";
     return (0, s.jsx)("footer", {
@@ -621,13 +743,13 @@
                             url: "https://www.linkedin.com/in/hamzaka549/",
                             icon: "linkedin"
                         }, {
-                            title: "CodePen",
-                            url: "https://codepen.io/HAMZA-ZAKA",
-                            icon: "codepen"
+                            title: "WhatsApp",
+                            url: "https://wa.me/923433918549",
+                            icon: "whatsapp"
                         }, {
-                            title: "Instagram",
-                            url: "https://instagram.com/hamzaka549",
-                            icon: "instagram"
+                            title: "Email",
+                            url: "mailto:hamzaka549@gmail.com",
+                            icon: "email"
                         }].map((e, t) => (0, s.jsx)("li", {
                             className: "mr-5 shrink-0 text-xs",
                             children: (0, s.jsxs)("a", {
@@ -684,43 +806,36 @@
          function b() {
     let e = (e) => {
         let { repoUrl: t } = e,
-        [a, n] = (0, r.useState)(null);
+        [a, n] = (0, r.useState)(null), [l, c] = (0, r.useState)(!1);
         return (
-        (0, r.useEffect)(() => {
-            let e = t.split("/")[4];
-            fetch("https://api.github.com/repos/hamzaka430/".concat(e))
-            .then((e) => e.json())
-            .then((e) => {
-                let { stargazers_count: t } = e;
-                n(t);
+            (0, r.useEffect)(() => {
+                if(!t) return; // no url
+                try {
+                    let parts = t.split("/").filter(Boolean);
+                    let repo = parts[parts.length - 1];
+                    let owner = parts[parts.length - 2];
+                    if(!repo || !owner) { c(!0); return; }
+                    // Only proceed if owner matches expected; else use dynamic owner
+                    let apiUrl = "https://api.github.com/repos/" + owner + "/" + repo;
+                    fetch(apiUrl, { headers: { 'Accept': 'application/vnd.github+json' } })
+                        .then(res => { if(!res.ok) { c(!0); return null; } return res.json(); })
+                        .then(data => { if(data && typeof data.stargazers_count === 'number') n(data.stargazers_count); })
+                        .catch(()=> c(!0));
+                } catch(err){ c(!0); }
+            }, [t]),
+            a !== null && !l
+        ) ? (0, s.jsxs)("a", {
+                className: "relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300",
+                href: t,
+                target: "_blank",
+                rel: "noreferrer noopener",
+                "aria-label": `GitHub repository ${a} stars (opens in a new tab)`,
+                children: [
+                    (0, s.jsx)(o.Z, { use: "star", className: "mr-1 h-3 w-3" }),
+                    (0, s.jsx)("span", { children: Number(a).toLocaleString("en", { useGrouping: !0 }) })
+                ]
             })
-            .catch((e) => console.error(e));
-        }, [t]),
-        a
-        )
-        ? (0, s.jsxs)("a", {
-            className:
-                "relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300",
-            href: t,
-            target: "_blank",
-            rel: "noreferrer noopener",
-            "aria-label": "".concat(
-                a,
-                " stars on GitHub (opens in a new tab)"
-            ),
-            children: [
-                (0, s.jsx)(o.Z, {
-                use: "star",
-                className: "mr-1 h-3 w-3",
-                }),
-                (0, s.jsx)("span", {
-                children: Number(a).toLocaleString("en", {
-                    useGrouping: !0,
-                }),
-                }),
-            ],
-            })
-        : null
+            : null
     };
 
     return (0, s.jsxs)("div", {
@@ -879,6 +994,10 @@
                     heading: "Experience",
                     label: "Work experience",
                     component: (0, s.jsx)(d, {})
+                }, {
+                    heading: "Education",
+                    label: "Education",
+                    component: (0, s.jsx)(y, {})
                 }, {
                     heading: "Projects",
                     label: "Selected projects",
