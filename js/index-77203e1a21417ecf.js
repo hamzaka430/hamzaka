@@ -864,7 +864,7 @@
             {
                 title: "Salon Management System",
                 link: "#",
-                image: "https://i.postimg.cc/ZRHkNWmB/barber.png",
+                image: "https://i.postimg.cc/59vGK2J0/barberx.jpg",
                 alt: "Salon management system dashboard",
                 desc: "A complete management system for salons to efficiently handle client appointments, staff scheduling, and billing operations. Built with Laravel ensuring optimal performance and role-based access.",
                 tech: ["Laravel", "PHP", "MySQL", "Blade Templating", "Bootstrap"],
@@ -873,7 +873,7 @@
             {
                 title: "Mosque Connector",
                 link: "#",
-                image: "https://i.postimg.cc/yYkqJ6bx/mosque.png",
+                image: "https://i.postimg.cc/Prj7gnfM/mosque.jpg",
                 alt: "Mosque connector community app interface",
                 desc: "A community-focused app that enables mosques to connect with their communities by sharing prayer timings, events, and announcements in real-time.",
                 tech: ["Laravel", "PHP", "MySQL", "Bootstrap", "JavaScript"],
