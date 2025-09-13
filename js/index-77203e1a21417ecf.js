@@ -520,15 +520,15 @@
                             date: "Jun 2015 — Mar 2018",
                             company: {
                                 name: "Jamia Hammadia",
-                                link: null
+                                link: "https://maps.app.goo.gl/MrGeTK7eRK2jz3cEA"
                             },
                             positions: ["Hifz e Quran"],
                             desc: "Completed Hifz-e-Quran at Jamia Hammadia."
                         }, {
                             date: "Oct 2025 — Aug 2029 (ongoing)",
                             company: {
-                                name: "",
-                                link: null
+                                name: "Virtual University Of Pakistan",
+                                link: "https://maps.app.goo.gl/wAZi77TtFbCsETjB9"
                             },
                             positions: ["BSIT (Bachelor of Science in Information Technology) · Undergraduate"],
                             desc: "Virtual University of Pakistan."
@@ -536,7 +536,7 @@
                             date: "Jul 2021 — Aug 2023",
                             company: {
                                 name: "Bahria College Karsaz",
-                                link: null
+                                link: "https://maps.app.goo.gl/HW7WEm6WcpEsbdq37"
                             },
                             positions: ["Intermediate in Computer Science"],
                             desc: "Grade: B (68%)."
@@ -544,7 +544,7 @@
                             date: "Aug 2019 — Jun 2021",
                             company: {
                                 name: "Green Public High School",
-                                link: null
+                                link: "https://maps.app.goo.gl/BvSwQUnYgFoUSK196"
                             },
                             positions: ["Matriculation in Computer Science"],
                             desc: "Grade: A+ (88%)."
