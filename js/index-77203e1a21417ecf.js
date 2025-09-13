@@ -803,6 +803,8 @@
                 })
             }
 
+            // Skills section
+
          function b() {
     let e = (e) => {
         let { repoUrl: t } = e,
@@ -963,6 +965,62 @@
             var v = a(8425),
                 w = a(4910);
 
+            // Skills component (structured list like Education section)
+            function S() {
+                const categories = [
+                    {
+                        short: "Frontend",
+                        title: "Frontend Development",
+                        desc: "HTML5, CSS3, JavaScript, Bootstrap — Responsive UI/UX implementation with reusable components and accessibility focus."
+                    },
+                    {
+                        short: "Backend",
+                        title: "Backend Development",
+                        desc: "PHP, Node.js — API integration, authentication, RESTful services, server-side logic, performance optimization."
+                    },
+                    {
+                        short: "Database",
+                        title: "Database Management",
+                        desc: "MySQL — schema design, complex queries, indexing, query optimization, data integrity & backups."
+                    },
+                    {
+                        short: "Design",
+                        title: "Graphic Designing",
+                        desc: "Adobe Photoshop, Canva — branding assets, marketing graphics, UI mockups, creative visual concepts."
+                    },
+                    {
+                        short: "UI/UX",
+                        title: "UI/UX Design",
+                        desc: "Wireframing, prototyping, user research, Figma — user-centered flows, interactive prototypes, iterative design."
+                    }
+                ];
+                return (0, s.jsx)("div", {
+                    children: (0, s.jsx)("ol", {
+                        className: "group/list",
+                        children: categories.map((e, t) => (0, s.jsx)("li", {
+                            className: "mb-12",
+                            children: (0, s.jsxs)("div", {
+                                className: "group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50",
+                                children: [(0, s.jsx)(l, {}), (0, s.jsx)("header", {
+                                    className: "z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2",
+                                    "aria-label": e.title,
+                                    children: e.short
+                                }), (0, s.jsxs)("div", {
+                                    className: "z-10 sm:col-span-6",
+                                    children: [(0, s.jsx)("h3", {
+                                        className: "font-medium leading-snug text-slate-200",
+                                        children: e.title
+                                    }), (0, s.jsx)("p", {
+                                        className: "mt-2 text-sm leading-normal",
+                                        children: e.desc
+                                    })]
+                                })]
+                            })
+                        }, t))
+                    })
+                });
+            }
+
             function k() {
                 let e = (0, r.useRef)([]);
                 (0, r.useEffect)(() => {
@@ -998,6 +1056,10 @@
                     heading: "Education",
                     label: "Education",
                     component: (0, s.jsx)(y, {})
+                }, {
+                    heading: "Skills",
+                    label: "Skills",
+                    component: (0, s.jsx)(S, {})
                 }, {
                     heading: "Projects",
                     label: "Selected projects",
