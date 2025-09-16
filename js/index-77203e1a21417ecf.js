@@ -511,7 +511,7 @@
             })
             }
 
-            // Education section - mirrors the Experience component's structure for consistent styling
+            // Education section
             function y() {
                 return (0, s.jsx)("div", {
                     children: (0, s.jsx)("ol", {
@@ -532,6 +532,22 @@
                             },
                             positions: ["BSIT (Bachelor of Science in Information Technology) · Undergraduate"],
                             desc: "Virtual University of Pakistan."
+                        }, {
+                            date: "Feb 2024 — Aug 2024",
+                            company: {
+                                name: "Aptech Learning",
+                                link: "https://maps.app.goo.gl/TfA9fg8ZU7kiWhbz9"
+                            },
+                            positions: ["Certificate of Proficiency in Information Systems Management"],
+                            desc: "Responsive Web Developer"
+                        }, {
+                            date: "Aug 2024 — Feb 2025",
+                            company: {
+                                name: "Aptech Learning",
+                                link: "https://maps.app.goo.gl/TfA9fg8ZU7kiWhbz9"
+                            },
+                            positions: ["Diploma in Information Systems Management"],
+                            desc: "PHP · Laravel Developer"
                         }, {
                             date: "Jul 2021 — Aug 2023",
                             company: {
@@ -692,7 +708,7 @@
 
             var p = a(1664),
                 h = a.n(p);
-
+            // Header
             function u(e) {
                 let {
                     sections: t
@@ -804,7 +820,6 @@
             }
 
             // Skills section
-
          function b() {
     let e = (e) => {
         let { repoUrl: t } = e,
