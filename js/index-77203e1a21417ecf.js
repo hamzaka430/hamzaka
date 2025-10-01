@@ -352,20 +352,20 @@
                     }), (0, s.jsx)("link", {
                         rel: "apple-touch-icon",
                         sizes: "180x180",
-                        href: "/favicon/apple-touch-icon.png"
+                        href: "/images/apple-touch-icon.png"
                     }), (0, s.jsx)("link", {
                         rel: "icon",
                         type: "image/png",
                         sizes: "32x32",
-                        href: "/favicon/favicon-32x32.png"
+                        href: "/images/favicon-32x32.png"
                     }), (0, s.jsx)("link", {
                         rel: "icon",
                         type: "image/png",
                         sizes: "16x16",
-                        href: "/favicon/favicon-16x16.png"
+                        href: "/images/favicon-16x16.png"
                     }), (0, s.jsx)("link", {
                         rel: "manifest",
-                        href: "/favicon/site.webmanifest"
+                        href: "/site.webmanifest"
                     }), (0, s.jsx)("meta", {
                         name: "msapplication-TileColor",
                         content: "#0f172a"
@@ -439,6 +439,15 @@
                         positions: ["Founder & Senior Developer"],
                         desc: "Founded and lead a development company specializing in full-stack web applications and AI-powered solutions. Architect scalable backend systems, design intuitive user interfaces, and oversee the entire project lifecycle from concept to deployment, ensuring delivery of high-quality, performance-optimized solutions for diverse client requirements.",
                         tech: ["Laravel", "PHP", "MySQL", "JavaScript", "HTML & CSS"]
+                    }, {
+                        date: "2025 — Present",
+                        company: {
+                            name: "Healthtek Pvt Ltd",
+                            link: "https://samipharma.com/"
+                        },
+                        positions: ["SAP Coordinator (Production Department)"],
+                        desc: "Manage SAP Production module for daily operations across multiple steps (Dispensing, Optical, Printing, Blistering, Labeling, Packaging). Handle line clearance documentation including Pre-Line Clearance, Hourly In-Process Sheets, and Post-Line Clearance. Ensure real-time updates and compliance by recording activities in SAP. Generate and track machine breakdown notifications to streamline maintenance workflows. Collaborate with the production team to maintain accuracy, efficiency, and audit readiness in all documentation.",
+                        tech: ["SAP", "Production Management", "Documentation", "Quality Compliance"]
                     }, {
                         date: "2022 — Present",
                         company: {
