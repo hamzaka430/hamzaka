@@ -81,23 +81,13 @@ To customize the portfolio for your own use:
 3. Modify styles in `css/` directory
 4. Update meta tags and SEO information
 
-## 📸 Screenshots
-
-### Desktop View
-![Desktop Screenshot](https://via.placeholder.com/800x400?text=Desktop+View)
-
-### Mobile View
-![Mobile Screenshot](https://via.placeholder.com/400x600?text=Mobile+View)
-
 ## 🌐 Live Demo
 
-Visit the live website: [https://hamzaka549.com](https://hamzaka549.com)
+Visit the live website: [https://hamzaka549.com](https://hamzaka.me)
 
 ## 👨‍💻 Author
 
 **Muhammad Hamza**
-- Portfolio: [hamzaka549.com](https://hamzaka549.com)
-- Twitter: [@hamzaka549](https://twitter.com/hamzaka549)
 - GitHub: [@hamzaka430](https://github.com/hamzaka430)
 
 ## 📄 License
