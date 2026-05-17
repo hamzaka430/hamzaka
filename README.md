@@ -83,7 +83,7 @@ To customize the portfolio for your own use:
 
 ## 🌐 Live Demo
 
-Visit the live website: [https://hamzaka549.com](https://hamzaka.me)
+Visit the live website: [https://hamzaka.me](https://hamzaka.me)
 
 ## 👨‍💻 Author
 
