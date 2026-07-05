@@ -913,12 +913,12 @@
             },
             {
                 title: "Invoizo — Invoice Generator",
-                link: "https://github.com/hamzaka430/Invoizo_Invoice_Generator",
+                link: "https://invoizo.app/",
                 image: "images/invoizo.webp",
                 alt: "Invoizo invoice generator interface",
                 desc: "Client-side invoice generator with real-time preview, PDF export, multi-currency support, and zero backend dependency. Features automated PDF generation, organized invoice records, and unique invoice ID generation.",
                 tech: ["HTML5", "CSS3", "JavaScript", "Netlify"],
-                github: "https://github.com/hamzaka430/Invoizo_Invoice_Generator",
+                github: "https://invoizo.app/",
             },
             {
                 title: "BarberX — Salon ERP",
@@ -931,12 +931,12 @@
             },
             {
                 title: "Salaah Connector — Mosque Finder",
-                link: "https://github.com/hamzaka430/Salaah-Connector-App",
+                link: "http://salaahconnector.eu.cc/",
                 image: "images/mosque.webp",
                 alt: "Salaah Connector mosque finder app",
                 desc: "Location-based mosque finder and community web application enabling mosques to share prayer timings, events, and announcements in real-time. Features geolocation-powered discovery, interactive Leaflet.js map, and admin dashboard.",
                 tech: ["Laravel", "Leaflet.js", "JavaScript", "MySQL"],
-                github: "https://github.com/hamzaka430/Salaah-Connector-App",
+                github: "http://salaahconnector.eu.cc/",
             },
             ].map((t, a) =>
             (0, s.jsx)(
