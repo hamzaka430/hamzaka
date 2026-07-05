@@ -297,7 +297,7 @@
                 let {
                     title: t,
                     pathname: a
-                } = e, n = "Muhammad Hamza", l = "Muhammad Hamza is a software engineer who builds accessible, inclusive products and digital experiences for the web.", o = "https://hamzaka.me", c = "".concat(o, "/og.png"), d = "@bchiang7", m = n;
+                } = e, n = "Muhammad Hamza", l = "Muhammad Hamza is a Full-Stack & AI Web Developer and Founder of DezignWise. He builds AI-powered SaaS products, scalable backend systems, and modern digital experiences.", o = "https://hamzaka.me", c = "".concat(o, "/og.png"), d = "@hamzaka549", m = n;
                 return t !== n && (m = "".concat(t, " | ").concat(n)), (0, s.jsxs)(i(), {
                     children: [(0, s.jsx)("title", {
                         children: m
@@ -395,24 +395,21 @@
     return (0, s.jsxs)("div", {
         children: [(0, s.jsx)("p", {
             className: "mb-4",
-            children: "I am a developer who loves building clean and user-friendly digital experiences. My work brings together design and development, so the projects I create not only look good but also work fast and smooth."
+            children: "I'm a full-stack web developer and founder of DezignWise — a digital agency where I turn ideas into real, working products. I enjoy solving complex problems through clean code, thoughtful architecture, and modern technologies."
         }), (0, s.jsxs)("p", {
             className: "mb-4",
-            children: ["Currently, I am the ", (0, s.jsx)("span", {
+            children: ["I work across the full stack — from designing ", (0, s.jsx)("span", {
                 className: e,
-                children: "Founder and Senior Developer at DezignWise"
-            }), ", where I focus on ", (0, s.jsx)("span", {
+                children: "scalable backend systems"
+            }), " with Laravel and Node.js, to building ", (0, s.jsx)("span", {
                 className: e,
-                children: "AI-powered backend systems, full stack web development, and smart frontend designs"
-            }), ". I use technologies like Laravel, PHP, MySQL, HTML, CSS, and JavaScript to build complete and reliable solutions. I also have experience in ", (0, s.jsx)("span", {
-                className: e,
-                children: "graphic design and office tools"
-            }), ", which helps me add extra value to every project."]
+                children: "modern frontend experiences"
+            }), " with React and Next.js. I also integrate AI capabilities using GPT-4o and RAG pipelines to make products smarter."]
         }), (0, s.jsx)("p", {
             className: "mb-4",
-            children: "In the past, I have worked on different projects like modern websites, database systems, and AI-based applications. These experiences taught me how to solve problems in different ways — from designing user interfaces to building strong backend systems."
+            children: "Alongside running DezignWise, I work as SAP Coordinator at Healthtek (Pvt.) Ltd., applying the same discipline I bring to software — accuracy, structure, and ownership — to real-world manufacturing operations."
         }), (0, s.jsx)("p", {
-            children: "When I am not coding, I enjoy learning new technologies, improving my design skills, and exploring how AI can make development even better."
+            children: "When I'm not building, I'm learning, exploring new AI tools, and continuously improving my craft as a developer and product engineer."
         })]
     })
 }
@@ -431,21 +428,21 @@
                 children: (0, s.jsx)("ol", {
                     className: "group/list",
                     children: [{
-                        date: "2023 — Present",
+                        date: "Jan 2023 — Present",
                         company: {
                             name: "DezignWise",
                             link: "https://dezignwise.online"
                         },
-                        positions: ["Founder & Senior Developer"],
-                        desc: "Founded and lead a development company specializing in full-stack web applications and AI-powered solutions. Architect scalable backend systems, design intuitive user interfaces, and oversee the entire project lifecycle from concept to deployment, ensuring delivery of high-quality, performance-optimized solutions for diverse client requirements.",
-                        tech: ["Laravel", "PHP", "MySQL", "JavaScript", "HTML & CSS"]
+                        positions: ["Founder & Lead Product Engineer"],
+                        desc: "Founded and lead a full-stack web development and UI/UX design agency specializing in AI-powered solutions and modern digital experiences. Architect scalable backend systems, design intuitive user interfaces, manage end-to-end project lifecycles, and build AI-integrated web applications. Serve clients across Pakistan and the Gulf region with 5+ projects delivered.",
+                        tech: ["Laravel", "Next.js", "React", "OpenAI GPT-4o", "PostgreSQL"]
                     }, {
-                        date: "2025 — Present",
+                        date: "Sep 2025 — Present",
                         company: {
-                            name: "Healthtek Pvt Ltd",
-                            link: "https://samipharma.com/"
+                            name: "Healthtek (Pvt.) Ltd.",
+                            link: "https://www.linkedin.com/company/healthtek-pvt-ltd/"
                         },
-                        positions: ["SAP Coordinator (Production Department)"],
+                        positions: ["SAP Coordinator"],
                         desc: "Manage SAP Production module for daily operations across multiple steps (Dispensing, Optical, Printing, Blistering, Labeling, Packaging). Handle line clearance documentation including Pre-Line Clearance, Hourly In-Process Sheets, and Post-Line Clearance. Ensure real-time updates and compliance by recording activities in SAP. Generate and track machine breakdown notifications to streamline maintenance workflows. Collaborate with the production team to maintain accuracy, efficiency, and audit readiness in all documentation.",
                         tech: ["SAP", "Production Management", "Documentation", "Quality Compliance"]
                     }, {
@@ -733,15 +730,15 @@
                             })
                         }), (0, s.jsx)("h2", {
                             className: "mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl",
-                            children: "AI Frontend & Backend Developer"
+                            children: "Full-Stack & AI Web Developer"
                         }), (0, s.jsx)("p", {
                             className: "mt-4 max-w-xs leading-normal",
-                            children: "I build responsive, functional, and user-friendly digital experiences for the web."
+                            children: "Founder @ DezignWise — building AI-powered SaaS & web solutions."
                         }), (0, s.jsx)("nav", {
                             className: "nav hidden lg:block",
                             "aria-label": "In-page jump links",
                             children: (0, s.jsx)("ul", {
-                                className: "mt-16 w-max",
+                                className: "mt-8 w-max",
                                 children: t.map((e, t) => e.hideFromNav ? null : (0, s.jsx)("li", {
                                     children: (0, s.jsxs)("a", {
                                         className: "group flex items-center py-3 ".concat(0 === t ? "active" : ""),
@@ -765,15 +762,15 @@
                             icon: "github"
                         }, {
                             title: "LinkedIn",
-                            url: "https://www.linkedin.com/in/hamzaka549/",
+                            url: "https://www.linkedin.com/in/hamzaka/",
                             icon: "linkedin"
                         }, {
                             title: "WhatsApp",
-                            url: "https://wa.me/923433918549",
+                            url: "https://wa.me/923323500430",
                             icon: "whatsapp"
                         }, {
                             title: "Email",
-                            url: "mailto:hamzaka549@gmail.com",
+                            url: "mailto:hamza@dezignwise.online",
                             icon: "email"
                         }].map((e, t) => (0, s.jsx)("li", {
                             className: "mr-5 shrink-0 text-xs",
@@ -870,49 +867,76 @@
             className: "group/list",
             children: [
             {
-                title: "Invoizo",
-                link: "https://invoizo.app",
-                image: "https://i.postimg.cc/2jHR8LTg/invoizo.png",
+                title: "FinSight AI — AI Financial Assistant",
+                link: "https://github.com/hamzaka430/Fintech-solution",
+                image: "images/invoizo.webp",
+                alt: "FinSight AI financial intelligence platform",
+                desc: "Production-grade AI-powered SaaS financial intelligence platform. Features a RAG-based AI assistant grounded in real financial data, invoice management, expense tracking with CSV import, 3-month cash flow forecasting, bank statement analyzer (PDF/CSV), AI anomaly detection, P&L/Expense/Revenue reports, and RBAC with MFA.",
+                tech: ["Next.js 15", "TypeScript", "OpenAI GPT-4o", "RAG", "PostgreSQL", "Prisma", "Clerk"],
+                github: "https://github.com/hamzaka430/Fintech-solution",
+            },
+            {
+                title: "UniComm — Unified Communication Dashboard",
+                link: "https://github.com/hamzaka430",
+                image: "images/dezignwise.webp",
+                alt: "UniComm unified communication dashboard",
+                desc: "Production-ready unified messaging platform integrating Gmail, Instagram Business, and WhatsApp Cloud API into a single dashboard. Features Gmail OAuth, Instagram DM sync via Meta Graph API, WhatsApp real-time webhooks, Redis background queues, token auto-refresh, RBAC (Admin/Agent), and full conversation management.",
+                tech: ["Laravel 11", "React 18", "Inertia.js", "PostgreSQL", "Redis", "Gmail API", "WhatsApp API"],
+                github: "https://github.com/hamzaka430",
+            },
+            {
+                title: "HamzaVaultX — Cloud Storage Platform",
+                link: "https://github.com/hamzaka430/HamzaVaultX",
+                image: "images/harvel.webp",
+                alt: "HamzaVaultX cloud storage platform",
+                desc: "A Google Drive-style SaaS cloud storage application with file and folder management, sharing, favorites, trash & restore, bulk downloads, and storage analytics. Built on Cloudflare R2 for cost-efficient, scalable object storage.",
+                tech: ["Laravel 11", "Vue.js 3", "Inertia.js", "PostgreSQL", "Cloudflare R2"],
+                github: "https://github.com/hamzaka430/HamzaVaultX",
+            },
+            {
+                title: "Doc Tracker — Enterprise Document Management",
+                link: "https://github.com/hamzaka430/doc_tracker",
+                image: "images/barberx.webp",
+                alt: "Doc Tracker enterprise document management system",
+                desc: "Production document lifecycle tracker with SAP error tracking, PDF generation, analytics dashboard, soft deletes, bulk submit, and AWS S3 cloud storage. Built for pharmaceutical manufacturing compliance workflows.",
+                tech: ["Laravel 11", "MySQL", "AWS S3", "Bootstrap"],
+                github: "https://github.com/hamzaka430/doc_tracker",
+            },
+            {
+                title: "Aura Fragrances — Luxury E-Commerce",
+                link: "https://github.com/hamzaka430/Aura_fragrences",
+                image: "images/mosque.webp",
+                alt: "Aura Fragrances luxury e-commerce website",
+                desc: "Premium perfume e-commerce website with a dark luxury design system, product filtering, cart & wishlist, blog, and full checkout flow. Deployed on Cloudflare Pages with edge-performance for global speed.",
+                tech: ["Hono", "TypeScript", "Vite", "Cloudflare Pages"],
+                github: "https://github.com/hamzaka430/Aura_fragrences",
+            },
+            {
+                title: "Invoizo — Invoice Generator",
+                link: "https://github.com/hamzaka430/Invoizo_Invoice_Generator",
+                image: "images/invoizo.webp",
                 alt: "Invoizo invoice generator interface",
-                desc: "A comprehensive web application designed for freelancers and businesses to generate professional invoices instantly. Features automated PDF export functionality, organized invoice records management, and unique invoice ID generation.",
-                tech: ["Laravel", "PHP", "MySQL", "Bootstrap", "JavaScript"], // Fixed tech stack
+                desc: "Client-side invoice generator with real-time preview, PDF export, multi-currency support, and zero backend dependency. Features automated PDF generation, organized invoice records, and unique invoice ID generation.",
+                tech: ["HTML5", "CSS3", "JavaScript", "Netlify"],
                 github: "https://github.com/hamzaka430/Invoizo_Invoice_Generator",
             },
             {
-                title: "DezignWise",
-                link: "https://dezignwise.online",
-                image: "https://i.postimg.cc/qqvPxpBm/dezignwise.png",
-                alt: "DezignWise agency website homepage",
-                desc: "A digital agency web application showcasing services including Web Design, App Design, UI/UX, Web Development, and Graphic Design. Effectively presents portfolio and client work, driving business growth and client engagement.",
-                tech: ["Laravel", "PHP", "MySQL", "Bootstrap", "JavaScript"], // Fixed tech stack
-                github: "https://github.com/hamzaka430/DezignWise",
-            },
-            {
-                title: "Salon Management System",
-                link: "#",
-                image: "https://i.postimg.cc/59vGK2J0/barberx.jpg",
-                alt: "Salon management system dashboard",
-                desc: "A complete management system for salons to efficiently handle client appointments, staff scheduling, and billing operations. Built with Laravel ensuring optimal performance and role-based access.",
-                tech: ["Laravel", "PHP", "MySQL", "Blade Templating", "Bootstrap"],
+                title: "BarberX — Salon ERP",
+                link: "https://github.com/hamzaka430/BarberX",
+                image: "images/barberx.webp",
+                alt: "BarberX salon management ERP dashboard",
+                desc: "Comprehensive salon management ERP with appointment scheduling, RBAC staff management, financial checkout tracking, and billing operations. Built with Laravel for performance, security, and role-based access control.",
+                tech: ["Laravel", "MySQL", "Blade", "Tailwind CSS"],
                 github: "https://github.com/hamzaka430/BarberX",
             },
             {
-                title: "Mosque Connector",
-                link: "#",
-                image: "https://i.postimg.cc/Prj7gnfM/mosque.jpg",
-                alt: "Mosque connector community app interface",
-                desc: "A community-focused app that enables mosques to connect with their communities by sharing prayer timings, events, and announcements in real-time.",
-                tech: ["Laravel", "PHP", "MySQL", "Bootstrap", "JavaScript"],
-                github: "https://github.com/hamzaka430/Mosque",
-            },
-            {
-                title: "Harvel Store",
-                link: "https://harvelstore.netlify.app",
-                image: "https://i.postimg.cc/gjtfM1nG/harvel.png",
-                alt: "Harvel Store e-commerce app interface",
-                desc: "A responsive e-commerce web application that displays product categories, descriptions, and a user-friendly shopping interface. Features fully responsive UI with product showcase and smooth navigation for an optimal shopping experience.",
-                tech: ["HTML", "CSS", "Bootstrap", "JavaScript"], // Fixed tech stack
-                github: "https://github.com/hamzaka430/harvel_store",
+                title: "Salaah Connector — Mosque Finder",
+                link: "https://github.com/hamzaka430/Salaah-Connector-App",
+                image: "images/mosque.webp",
+                alt: "Salaah Connector mosque finder app",
+                desc: "Location-based mosque finder and community web application enabling mosques to share prayer timings, events, and announcements in real-time. Features geolocation-powered discovery, interactive Leaflet.js map, and admin dashboard.",
+                tech: ["Laravel", "Leaflet.js", "JavaScript", "MySQL"],
+                github: "https://github.com/hamzaka430/Salaah-Connector-App",
             },
             ].map((t, a) =>
             (0, s.jsx)(
@@ -964,7 +988,7 @@
                     // Replace Next.js Image with regular img tag
                     (0, s.jsx)("img", {
                         className:
-                        "aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1",
+                        "aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1", style: {display:"none"},
                         src: t.image,
                         alt: t.alt,
                         width: 200,
@@ -993,29 +1017,34 @@
             function S() {
                 const categories = [
                     {
-                        short: "Frontend",
-                        title: "Frontend Development",
-                        desc: "HTML5, CSS3, JavaScript, Bootstrap — Responsive UI/UX implementation with reusable components and accessibility focus."
+                        short: "Languages",
+                        title: "Languages",
+                        desc: "PHP · JavaScript · TypeScript · HTML5 · CSS3"
                     },
                     {
                         short: "Backend",
                         title: "Backend Development",
-                        desc: "PHP, Laravel — API integration, authentication, RESTful services, server-side logic, performance optimization."
+                        desc: "Laravel 11 · Node.js · Hono · Express.js · RESTful APIs · OAuth2 · Webhooks · Clerk / Sanctum / JWT · RBAC"
                     },
                     {
-                        short: "Database",
-                        title: "Database Management",
-                        desc: "MySQL — schema design, complex queries, indexing, query optimization, data integrity & backups."
+                        short: "Frontend",
+                        title: "Frontend Development",
+                        desc: "React 18 · Next.js 15 · Vue.js 3 · Inertia.js · Tailwind CSS · Bootstrap · Figma"
                     },
                     {
-                        short: "Design",
-                        title: "Graphic Designing",
-                        desc: "Adobe Photoshop, Canva — branding assets, marketing graphics, UI mockups, creative visual concepts."
+                        short: "DB & Cloud",
+                        title: "Database & Cloud",
+                        desc: "MySQL · PostgreSQL · MongoDB · Redis · Prisma / Eloquent · AWS S3 · Cloudflare R2"
                     },
                     {
-                        short: "UI/UX",
-                        title: "UI/UX Design",
-                        desc: "Wireframing, prototyping, user research, Figma — user-centered flows, interactive prototypes, iterative design."
+                        short: "AI & ML",
+                        title: "AI & Machine Learning",
+                        desc: "OpenAI GPT-4o · RAG Architecture · Qdrant Vector DB · LLM Integrations"
+                    },
+                    {
+                        short: "DevOps",
+                        title: "DevOps & Tools",
+                        desc: "Git · GitHub · Docker · PM2 · Vite · Heroku · Netlify · Cloudflare Pages"
                     }
                 ];
                 return (0, s.jsx)("div", {
@@ -1080,6 +1109,10 @@
                     heading: "Education",
                     label: "Education",
                     component: (0, s.jsx)(y, {})
+                }, {
+                    heading: "Certifications",
+                    label: "Certifications",
+                    component: (0, s.jsx)("div", { dangerouslySetInnerHTML: { __html: `<div><ol class="group/list"><li class="mb-12"><div class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50"><div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div><header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">Jun 2026</header><div class="z-10 sm:col-span-6"><h3 class="font-medium leading-snug text-slate-200">Technical Support Fundamentals</h3><p class="mt-2 text-sm leading-normal"><span class="font-medium text-slate-300">Google</span> — Credential ID: VK31YO1I6XLB</p><ul class="mt-2 flex flex-wrap" aria-label="Skills"><li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">IT Support</div></li><li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Networking</div></li><li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">IT Management</div></li></ul></div></div></li></ol></div>` }})
                 }, {
                     heading: "Skills",
                     label: "Skills",
