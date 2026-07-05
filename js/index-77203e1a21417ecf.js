@@ -868,12 +868,12 @@
             children: [
             {
                 title: "FinSight AI — AI Financial Assistant",
-                link: "https://github.com/hamzaka430/Fintech-solution",
+                link: "https://finsightai.eu.cc/",
                 image: "images/invoizo.webp",
                 alt: "FinSight AI financial intelligence platform",
                 desc: "Production-grade AI-powered SaaS financial intelligence platform. Features a RAG-based AI assistant grounded in real financial data, invoice management, expense tracking with CSV import, 3-month cash flow forecasting, bank statement analyzer (PDF/CSV), AI anomaly detection, P&L/Expense/Revenue reports, and RBAC with MFA.",
                 tech: ["Next.js 15", "TypeScript", "OpenAI GPT-4o", "RAG", "PostgreSQL", "Prisma", "Clerk"],
-                github: "https://github.com/hamzaka430/Fintech-solution",
+                github: "https://finsightai.eu.cc/",
             },
             {
                 title: "UniComm — Unified Communication Dashboard",
@@ -886,21 +886,21 @@
             },
             {
                 title: "HamzaVaultX — Cloud Storage Platform",
-                link: "https://github.com/hamzaka430/HamzaVaultX",
+                link: "https://hamzavaultx.eu.cc/",
                 image: "images/harvel.webp",
                 alt: "HamzaVaultX cloud storage platform",
                 desc: "A Google Drive-style SaaS cloud storage application with file and folder management, sharing, favorites, trash & restore, bulk downloads, and storage analytics. Built on Cloudflare R2 for cost-efficient, scalable object storage.",
                 tech: ["Laravel 11", "Vue.js 3", "Inertia.js", "PostgreSQL", "Cloudflare R2"],
-                github: "https://github.com/hamzaka430/HamzaVaultX",
+                github: "https://hamzavaultx.eu.cc/",
             },
             {
                 title: "Doc Tracker — Enterprise Document Management",
-                link: "https://github.com/hamzaka430/doc_tracker",
+                link: "https://doctracking.eu.cc/",
                 image: "images/barberx.webp",
                 alt: "Doc Tracker enterprise document management system",
                 desc: "Production document lifecycle tracker with SAP error tracking, PDF generation, analytics dashboard, soft deletes, bulk submit, and AWS S3 cloud storage. Built for pharmaceutical manufacturing compliance workflows.",
                 tech: ["Laravel 11", "MySQL", "AWS S3", "Bootstrap"],
-                github: "https://github.com/hamzaka430/doc_tracker",
+                github: "https://doctracking.eu.cc/",
             },
             {
                 title: "Aura Fragrances — Luxury E-Commerce",
@@ -922,12 +922,12 @@
             },
             {
                 title: "BarberX — Salon ERP",
-                link: "https://github.com/hamzaka430/BarberX",
+                link: "http://barberxsalon.eu.cc/",
                 image: "images/barberx.webp",
                 alt: "BarberX salon management ERP dashboard",
                 desc: "Comprehensive salon management ERP with appointment scheduling, RBAC staff management, financial checkout tracking, and billing operations. Built with Laravel for performance, security, and role-based access control.",
                 tech: ["Laravel", "MySQL", "Blade", "Tailwind CSS"],
-                github: "https://github.com/hamzaka430/BarberX",
+                github: "http://barberxsalon.eu.cc/",
             },
             {
                 title: "Salaah Connector — Mosque Finder",
